@@ -27,6 +27,7 @@ export const getStaticProps: GetStaticProps = async () => {
 type Props = {
   feed: PostProps[];
 };
+//k
 
 const Home: React.FC<Props> = (props) => {
   const toggleViewMode = useToggleViewMode((state) => state.toggleViewMode);
