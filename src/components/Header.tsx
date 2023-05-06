@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           </Link>
           {session && (
             <Link
-              href="/src/pages/drafts"
+              href="/drafts"
               className="inline-block border border-white rounded hover:border-gray-100 hover:bg-gray-100 py-1 px-3"
               data-active={isActive("/drafts")}
             >
@@ -152,7 +152,7 @@ const Header: React.FC = () => {
         </div>
         <Link
           className="inline-block text-sm px-4 py-2 leading-none bg-black rounded text-white border-white hover:bg-gray-900 mt-4 lg:mt-0"
-          href="/src/pages/create"
+          href="/create"
         >
           <button>New Survey</button>
         </Link>
